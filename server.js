@@ -29,7 +29,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 const allowedOrigins = [
   /http:\/\/(127(\.\d){3}|localhost)/,
-  'https://banka-chi.vercel.app'
+  'https://kigombo.live'
 ];
 app.use(cors({ origin: allowedOrigins }));
 app.options('*', cors());
