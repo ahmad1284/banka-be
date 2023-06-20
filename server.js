@@ -27,8 +27,14 @@ const db = {
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(cors({ origin: /http:\/\/(127(\.\d){3}|localhost)/}));
+const allowedOrigins = [
+  /http:\/\/(127(\.\d){3}|localhost)/,
+  'https://banka-chi.vercel.app'
+];
+app.use(cors({ origin: allowedOrigins }));
 app.options('*', cors());
+
+
 
 // ***************************************************************************
 
