@@ -30,7 +30,8 @@ app.use(bodyParser.json());
 const allowedOrigins = [
   /http:\/\/(127(\.\d){3}|localhost)/,
   'https://banka-chi.vercel.app',
-  'https://kigombo.live'
+  'https://kigombo.live',
+  'https://kigombo.vercel.app'
 ];
 app.use(cors({ origin: allowedOrigins }));
 app.options('*', cors());
