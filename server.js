@@ -92,7 +92,7 @@ router.get('/accounts/:user', (req, res) => {
 
   // Check if account exists
   if (!account) {
-    return res.status(404).json({ error: 'User does not exist' });
+    return res.status(404).json({ error: 'Username or password does not exist' });
   }
 
   return res.json(account);
