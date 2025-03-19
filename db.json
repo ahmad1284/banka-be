@@ -3,13 +3,45 @@
     "user": "test",
     "currency": "$",
     "description": "Test account",
-    "balance": 75,
+    "balance": 112,
     "transactions": [
       {
         "id": 1,
         "date": "2020-10-01",
         "object": "Pocket money",
         "amount": 50
+      },
+      {
+        "id": "00da65179f027655ee22ae58dab4501e",
+        "date": "2025-03-19",
+        "object": "paid Sali",
+        "amount": 25
+      },
+      {
+        "id": "74050a4c8fd567cb1613b6d1a73c312b",
+        "date": "2025-03-19",
+        "object": "paid kassim",
+        "amount": 12
+      }
+    ]
+  },
+  "hamidhamad": {
+    "user": "hamidhamad",
+    "currency": "$",
+    "description": "Debt",
+    "balance": -62,
+    "transactions": [
+      {
+        "id": "126f5d144826d4aabf501ddf8783002c",
+        "date": "2025-03-19",
+        "object": "paid Salim",
+        "amount": 25
+      },
+      {
+        "id": "f16bdbaff9916f2810c2e5a917d3b835",
+        "date": "2025-03-22",
+        "object": "paid kassim",
+        "amount": 12
       }
     ]
   }
