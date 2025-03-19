@@ -44,5 +44,25 @@
         "amount": 12
       }
     ]
+  },
+  "ahmads": {
+    "user": "ahmads",
+    "currency": "$",
+    "description": "Debt",
+    "balance": 15,
+    "transactions": [
+      {
+        "id": "3818a434a462e9831aa787a284d86b9a",
+        "date": "2025-03-19",
+        "object": "whaaaat",
+        "amount": 89
+      },
+      {
+        "id": "ea6d6814cf0b33f8424688698dcf2e7f",
+        "date": "2025-03-19",
+        "object": "retirement",
+        "amount": 25
+      }
+    ]
   }
 }
